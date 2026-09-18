@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="48" fill="#020617"/>
+  <g transform="translate(96,86) scale(0.55)">
+    <path d="M-30 -100 L50 -100 C60 -100 68 -92 68 -80 L68 60 C68 70 60 78 50 78 L-30 78 C-40 78 -48 70 -48 60 L-48 -80 C-48 -92 -40 -100 -30 -100 Z" fill="#1e293b" stroke="#f59e0b" stroke-width="8"/>
+    <path d="M-15 15 L0 -25 L15 15 L25 -10 L30 30 L-30 30 L-25 -10 Z" fill="#f59e0b"/>
+    <circle cx="0" cy="-28" r="4" fill="#fef08a"/>
+    <circle cx="-25" cy="-12" r="3.5" fill="#fef08a"/>
+    <circle cx="25" cy="-12" r="3.5" fill="#fef08a"/>
+  </g>
+  <text x="96" y="165" font-family="system-ui, sans-serif" font-weight="900" font-size="18" fill="#f59e0b" text-anchor="middle" letter-spacing="1">LA POCHA</text>
+</svg>

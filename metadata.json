@@ -1,0 +1,10 @@
+{
+  "name": "Remix La Pocha rec",
+  "description": "Contador de puntos, estadísticas de fallos y análisis para el juego de cartas La Pocha para 3 a 8 jugadores con entrada de voz, reglas de Oros y exportación/importación JSON entre dispositivos.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "short_name": "La Pocha",
+  "name": "Anotador de La Pocha (La Podrida)",
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./",
+  "scope": "./",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "description": "Anotador y contador de puntos 100% offline para el juego de cartas La Pocha (La Podrida)."
+}
+

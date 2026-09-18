@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#020617"/>
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="none" stroke="#f59e0b" stroke-width="12" opacity="0.3"/>
+  <g transform="translate(256,230) scale(1.4)">
+    <!-- Playing cards icon -->
+    <path d="M-60 -80 L20 -80 C30 -80 38 -72 38 -60 L38 80 C38 90 30 98 20 98 L-60 98 C-70 98 -78 90 -78 80 L-78 -60 C-78 -72 -70 -80 -60 -80 Z" fill="#0f172a" stroke="#cbd5e1" stroke-width="6"/>
+    <path d="M-30 -100 L50 -100 C60 -100 68 -92 68 -80 L68 60 C68 70 60 78 50 78 L-30 78 C-40 78 -48 70 -48 60 L-48 -80 C-48 -92 -40 -100 -30 -100 Z" fill="#1e293b" stroke="#f59e0b" stroke-width="8"/>
+    <!-- Gold Crown / Trophy in center -->
+    <path d="M-15 15 L0 -25 L15 15 L25 -10 L30 30 L-30 30 L-25 -10 Z" fill="#f59e0b"/>
+    <circle cx="0" cy="-28" r="4" fill="#fef08a"/>
+    <circle cx="-25" cy="-12" r="3.5" fill="#fef08a"/>
+    <circle cx="25" cy="-12" r="3.5" fill="#fef08a"/>
+  </g>
+  <text x="256" y="440" font-family="system-ui, sans-serif" font-weight="900" font-size="44" fill="#f59e0b" text-anchor="middle" letter-spacing="2">LA POCHA</text>
+</svg>

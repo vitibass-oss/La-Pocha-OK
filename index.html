@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#020617" />
+    <meta name="description" content="Contador de puntos, estadísticas de fallos y análisis para el juego de cartas La Pocha para 3 a 8 jugadores con entrada de voz, reglas de Oros y exportación/importación JSON entre dispositivos." />
+    <meta property="og:title" content="La Podrida" />
+    <meta property="og:description" content="Contador de puntos, estadísticas de fallos y análisis para el juego de cartas La Pocha para 3 a 8 jugadores con entrada de voz, reglas de Oros y exportación/importación JSON entre dispositivos." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="La Podrida" />
+    <link rel="icon" type="image/svg+xml" href="icon-192.svg" />
+    <link rel="apple-touch-icon" href="icon-192.svg" />
+    <link rel="manifest" href="manifest.json" />
+    <title>La Podrida</title>
+    <script>
+      // Register Service Worker for offline capability
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('./sw.js').then(function(reg) {
+            console.log('ServiceWorker registered with scope:', reg.scope);
+          }).catch(function(err) {
+            console.warn('ServiceWorker registration failed:', err);
+          });
+        });
+      }
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
